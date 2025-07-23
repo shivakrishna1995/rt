@@ -16,6 +16,8 @@ export default function Task() {
 
     const words = id == "1" ? ["Significant", "Rising", "Melting", "Burning"] : ["Read", "Finished", "Curious", "Afternoon "];
 
+    const tapInstructions = id == "1" ? `Find and tap the word that means 'increase' in the paragraph above.` : `Find and tap the word that means 'interested to know' in the paragraph above.`;
+
     useEffect(() => {
         trackPageView();
     }, []);
@@ -95,7 +97,7 @@ export default function Task() {
                             Tap Instruction
                         </h6>
                         <p className="text-[#B45309] text-sm">
-                            Find and tap the word that means 'increase' in the paragraph above.
+                            {tapInstructions}
                         </p>
                     </div>
                 </div>
