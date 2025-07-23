@@ -27,7 +27,7 @@ export default function Task() {
     }
 
     return (
-        <div className="w-screen h-screen bg-gray-100 md:p-10 flex justify-center">
+        <div className="w-screen bg-gray-100 md:p-10 flex justify-center">
             <div className="w-full md:w-[384px] md:rounded-x flex flex-col overflow-y-scroll gap-7 h-full bg-[#F9FAFB]">
                 <header className="shrink-0 h-[80px] grid grid-cols-[30px_1fr_30px] items-center border-b-[1px] border-[#E5E7EB] px-5 bg-white">
                     <svg width="16" height="19" viewBox="0 0 16 19" fill="none" xmlns="http://www.w3.org/2000/svg" onClick={() => router.back()}>

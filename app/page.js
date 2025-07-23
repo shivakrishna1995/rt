@@ -11,7 +11,7 @@ export default function Home() {
   };
 
   return (
-    <div className="w-screen h-screen bg-gray-100 md:p-10 flex justify-center">
+    <div className="w-screen bg-gray-100 md:p-10 flex justify-center">
       <div className="w-full md:w-[384px] md:rounded-x flex flex-col overflow-y-scroll gap-7 h-full pb-[50px] bg-[#F9FAFB]">
         <header className="shrink-0 h-[80px] flex justify-center items-center border-b-[1px] border-[#E5E7EB] bg-white">
           <h6 className="font-semibold text-xl">Experiment</h6>
