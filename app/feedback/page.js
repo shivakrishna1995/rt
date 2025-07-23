@@ -223,7 +223,7 @@ export default function Feedback() {
                     <p className="text-sm text-[#4B5563]">
                         (1 = Very Confusing, 5 = Very Clear)
                     </p>
-                    <div className="flex gap-4">
+                    <div className="flex justify-between items-stretch">
                         <div className="border-[2px] border-[#E5E7EB] p-4 flex flex-col gap-2 items-center rounded-lg cursor-pointer" onClick={() => setA8(1)}>
                             <input type="radio" name="q8" checked={a8 === 1} />
                             <span className="font-medium text-sm text-[#000000]">1</span>
@@ -239,6 +239,10 @@ export default function Feedback() {
                         <div className="border-[2px] border-[#E5E7EB] p-4 flex flex-col gap-2 items-center rounded-lg cursor-pointer" onClick={() => setA8(4)}>
                             <input type="radio" name="q8" checked={a8 === 4} />
                             <span className="font-medium text-sm text-[#000000]">4</span>
+                        </div>
+                        <div className="border-[2px] border-[#E5E7EB] p-4 flex flex-col gap-2 items-center rounded-lg cursor-pointer" onClick={() => setA8(5)}>
+                            <input type="radio" name="q8" checked={a8 === 5} />
+                            <span className="font-medium text-sm text-[#000000]">5</span>
                         </div>
                     </div>
                 </div>
